@@ -1,94 +1,77 @@
 # Amazon Sales Data Analysis Project
 
 **Author:** Vaishnavi Mishra  
-**Tools & Technologies:** MySQL, SQL, MySQL Workbench, CSV Dataset  
+**Tools & Technologies:** MySQL & MySQL Workbench, SQL, CSV Dataset  
 
 ---
 
 ## Project Overview
-Ye project Amazon ke sales data ka analysis hai jo Myanmar ke **Naypyitaw, Yangon, aur Mandalay** branches ka pehle quarter 2019 me liya gaya tha. Dataset me **1000 rows** aur **17 columns** hain. Project ka main goal hai sales performance, customer behavior, product trends aur revenue contribution ko **SQL** ke through analyze karna.
+This project analyzes Amazon sales data from **Naypyitaw, Yangon, and Mandalay** branches for Q1 2019. The dataset contains **1000 rows** and **17 columns**. The goal is to analyze sales performance, customer behavior, product trends, and revenue contribution using **SQL**.
 
 ---
 
 ## Objectives
-Is project ke main objectives:
-
-- Amazon branches ke overall sales performance ka analysis  
-- Top-performing aur low-performing product lines ko identify karna  
-- Customer behavior ka study based on **gender** aur **customer type**  
-- Sales trends ka analysis over **time** (monthly, daily, hourly)  
-- Total **revenue** aur **profit** calculate karna  
-- Key business insights derive karna decision making ke liye
+- Analyze overall sales performance of Amazon branches  
+- Identify top-performing and low-performing product lines  
+- Study customer behavior based on **gender** and **customer type**  
+- Analyze sales trends over **time** (monthly, daily, hourly)  
+- Calculate total **revenue** and **profit**  
+- Derive actionable business insights  
 
 ---
 
 ## Dataset Description
-Dataset me sales records hain jisme details include hain:
-
-- Branch aur city information  
+The dataset includes:  
+- Branch and city information  
 - Customer type (Member, Normal)  
 - Gender of the customer  
-- Product lines aur categories  
-- Order quantities, prices, aur revenue  
-- Date aur time of purchase  
+- Product lines and categories  
+- Order quantities, prices, and revenue  
+- Date and time of purchase  
 
-Ye dataset MySQL database me import karke analysis kiya gaya.
-
----
-
-## Tools and Technologies
-- **MySQL Database**: Data store aur query ke liye  
-- **MySQL Workbench**: Database management aur query execution  
-- **SQL (Structured Query Language)**: Data extraction aur analysis  
-- **CSV Dataset**: Sales data ka source  
+Data was imported into a MySQL database for analysis.
 
 ---
 
-## Database and Table Creation
-Project setup steps:
-
-1. MySQL Workbench me database `amazon_project` create kiya  
-2. CSV dataset ko `amazon` table me import kiya using Table Data Import Wizard  
-3. **NULL values** check ki aur data types verify kiye  
-4. First few records display karke import validate kiya
+## Database and Table Setup
+1. Created database `amazon_project` in MySQL Workbench  
+2. Imported CSV dataset into `amazon` table  
+3. Checked for NULL values and verified data types  
+4. Displayed first few records to validate import  
 
 ---
 
-## Analysis and Business Questions
-Business questions jo SQL queries se answer kiye gaye:
-
-1. Dataset me distinct cities ka count  
-2. Branch aur city ka mapping  
-3. Total records aur Amazon operate karne wale cities  
-4. Highest revenue generate karne wali cities  
-5. Highest revenue generate karne wali branch  
-6. Available product lines aur top-performing product line  
-7. Sales distribution by customer type  
-8. Average spending by gender  
-9. Peak sales periods (time of day aur weekdays)
+## Analysis and Key Business Questions
+SQL queries answered the following:  
+1. Count of distinct cities  
+2. Branch-to-city mapping  
+3. Total records and operating cities  
+4. Highest revenue generating cities and branch  
+5. Top-performing product line  
+6. Sales distribution by customer type  
+7. Average spending by gender  
+8. Peak sales periods (time of day and weekdays)  
 
 ---
 
-## Key Findings and Insights
-- **Food and Beverages** highest revenue generate karta hai  
-- **Electronic Accessories** highest sales volume deta hai  
-- **January** highest revenue month hai  
-- **Naypyitaw (Branch C)** sabse zyada revenue contribute karta hai  
-- **Members** normal customers se zyada revenue generate karte hain  
-- **Female customers** male customers se zyada revenue contribute karte hain  
-- **Afternoons aur Saturdays** peak sales periods hain  
-
-Ye insights businesses ko product strategies optimize karne, customer targeting improve karne aur overall sales performance enhance karne me madad karenge.
+## Key Findings
+- **Food and Beverages** generates the highest revenue  
+- **Electronic Accessories** has the highest sales volume  
+- **January** is the highest revenue month  
+- **Naypyitaw (Branch C)** contributes the most revenue  
+- **Members** generate more revenue than normal customers  
+- **Female customers** contribute more revenue than male customers  
+- **Afternoons and Saturdays** are peak sales periods  
 
 ---
 
 ## Conclusion
-Amazon sales data successfully SQL use karke analyze kiya gaya. Product, customer, time-based aur revenue analysis se actionable business insights derive kiye gaye. Ye project demonstrate karta hai ki SQL ke through **sales data analysis** kaise effective ho sakta hai.
+Amazon sales data was successfully analyzed using SQL. Product, customer, time-based, and revenue analysis provided actionable insights for improving business decisions.  
 
 ---
 
 ## Future Scope
-- **Visualization tools** jaise Power BI ya Tableau ke sath integration  
-- Advanced analysis using **CTEs aur subqueries**  
-- Historical sales data se **predictive analysis**  
-- **Reporting dashboards** ka automation
+- Integration with **visualization tools** like Power BI or Tableau  
+- Advanced analysis using **CTEs and subqueries**  
+- **Predictive analysis** using historical sales data  
+- **Automated reporting dashboards**
