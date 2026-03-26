@@ -1,7 +1,7 @@
 # Amazon Sales Data Analysis Project
 
 **Author:** Vaishnavi Mishra  
-**Tools & Technologies:** MySQL & MySQL Workbench, SQL, CSV Dataset  
+**Tools & Technologies:** MySQL & MySQL Workbench, SQL, Python, CSV Dataset  
 
 ---
 
